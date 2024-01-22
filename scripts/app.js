@@ -3,8 +3,7 @@ const card = document.querySelector('.card');
 const details = document.querySelector('.details');
 const time = document.querySelector('img.time');
 const icon = document.querySelector('.icon img');
-const forecast = './forecast.js';
-//new Forecast();
+const forecast = new Forecast();
 
 const updateUI = (data) => {
 //     console.log(data);
